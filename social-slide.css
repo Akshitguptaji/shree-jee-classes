@@ -1,0 +1,47 @@
+.social-sidebar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -2px; /* Initially hidden */
+    background-color: #9cbcdf;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: right 0.3s ease;
+  }
+  
+  .social-sidebar.show {
+    right: 0;
+  }
+  
+  .social-sidebar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .social-sidebar a:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-sidebar a.facebook {
+    background-color: #3b5998;
+  }
+  
+  .social-sidebar a.twitter {
+    background-color: #1da1f2;
+  }
+  
+  .social-sidebar a.instagram {
+    background-color: #e4405f;
+  }
+  
+  .social-sidebar a.linkedin {
+    background-color: #0077b5;
+  }
+  
+  .social-sidebar a.whatsapp {
+    background-color: #25d366;
+  }
+  
